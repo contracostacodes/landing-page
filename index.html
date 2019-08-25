@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contra Costa Codes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Shrikhand|Share|Zilla+Slab+Highlight|Zilla+Slab|Bungee+Inline|Bungee+Shade|Bungee+Outline|Bungee+Hairline|Bungee|Miriam+Libre:400,700&display=swap" rel="stylesheet">
+    <style>
+      body,h1,h2,h3 {font-family: "Shrikhand", sans-serif}
+
+      h3 {padding-top: 16px; line-height: 1;}
+      .w3-bar,p,button,h4,h5,h6 {font-family: "Miriam Libre", sans-serif;}
+      .fa-anchor,.fa-coffee {font-size:200px}
+      .circle-img {border-radius: 50%; border: 5px solid #fffde7;}
+      .side-padding {padding-left: 2.5em; padding-right: 2.5em; padding-top: 4em; padding-bottom: 4em;}
+      
+      * {
+          box-sizing: border-box;
+      }
+      html,body {
+        height:100%;
+        margin:0;
+        font-size: calc(2vw +1 em);
+      }
+      
+      section {
+        margin:0;
+      }
+      .cover {
+        height:100%;
+        min-height:100%;/*for mozilla*/
+        margin: 0;
+      }
+      .gradients{
+        background: linear-gradient(178deg, rgba(103,58,183,1) 0%, rgba(40,53,147,1) 10%, rgba(103,58,183,1) 10%, rgba(40,53,147,1) 55%, rgb(26, 35, 126) 80%, #0277BD 80%, #4DD0E1 92%);
+        background-position: center;
+      }
+      footer {
+        background: #9c27b0;
+        background: linear-gradient(179deg, #512DA8 33%, #311B92 92%);
+        background-position: center;
+        color: #9e9e9e;
+        font-size: 12px;
+      }
+      html>body .content {
+        height:auto;
+      }
+      .img-padding {
+        padding: 20px;
+      }
+      
+      .flex-container {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+      }
+      .column{
+        padding: .5em 1em .5em;
+        width: 500px;
+      }
+
+
+      #contra-costa {
+        font-family: 'Shrikhand';
+        color: #FFEB3B;
+        font-size: 6vw;
+        line-height: .2;
+
+        padding-left: 1em;
+      }
+
+      #codes {
+        font-family: 'Miriam Libre';
+        font-weight: 700;
+        color: #fff;
+        font-size: 15vw;
+        line-height: .2;
+
+      }
+      .brackets {
+        font-family: 'Shrikhand';
+        font-size: 30vw;
+        color: #00bcd4;
+        line-height: .1;
+      }
+      .padding-left {
+        padding-left: .1em;
+      }
+      
+      @media screen and (max-width: 415px){
+        #contra-costa { 
+          font-size: 24px;
+          line-height: .2;
+          padding-left: 20px;
+        }
+        #codes { 
+          font-size: 60px;
+          line-height: .2;
+          padding-bottom:1em;
+        }
+        .brackets {
+          font-size: 120px;
+          color: #00bcd4;
+          line-height: .1;
+        }
+      }
+      
+      p {
+        font-family: "Miriam Libre", sans-serif; 
+        font-size: 20px;
+        line-height: 1.2;
+      }
+      h2 {
+        font-family: "Shrikhand";
+        font-size: 52px;
+        line-height: 1;
+      }
+/*       h3 {
+        font-family: "Miriam Libre";
+        font-size: 42px;
+        line-height: 1;
+        font-weight: bold;
+      } */
+      .tagline {
+        font-size: 1.5em;
+/*         padding: .1em 8em 6em; */
+        background: rgba(0,188,212,1);
+        background: linear-gradient(180deg, #4DD0E1 80%, #E0F7FA 100%);
+        padding-bottom: 6em;
+        margin: 0;
+        color: #1a237e;
+      }
+      .indigo-bg{
+        background: #1A237E;
+        padding: .1em 8em 8em;
+        color: #fdd835; /*yellow*/
+        font-size: 1.5em;
+      }
+      .no-margin {
+        margin: 0;
+      }
+      #upcoming {
+        background: #E0F7FA;
+        margin: 0;
+        padding-top: 4em;
+        padding-bottom: 4em;
+        color: #1a237e; /* very dark blue */
+      }
+      #about {
+        background: #311b92;
+        color: #fffde7;
+        background: linear-gradient(0deg, #311B92 0%, #0288D1 90%);
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header class="cover gradients w3-display-container w3-center">
+      <div class="w3-display-topleft w3-large w3-text-white" style="padding-left:20px;"><p>
+        Fall classes start in September
+        </p></div>
+      <div class="w3-display-middle" style="padding-top:20vh;">
+        <h1 class="w3-animate-top">
+          <span id="contra-costa">Contra Costa</span>
+          <span class="brackets">{</span><span id="codes">CODES</span><span class="brackets padding-left">}</span>
+        </h1>
+                  <p class="w3-text-white w3-center" style="padding-top: 8vh;">
+          Register today for beginner-friendly coding classes!
+        </p>
+        <nav> 
+          <div class="w3-row w3-content" style="max-width:400px; padding-bottom: 8vh;">
+          <div class="w3-half w3-center w3-padding-large">
+            <a href="#htmlcss"><button class="w3-button w3-round-large w3-cyan w3-xlarge w3-padding-large"><b>HTML & CSS</b></button></a>
+          </div>
+          
+          <div class="w3-half w3-center w3-padding-large">
+            <a href="#javascript"><button class="w3-button w3-round-large w3-cyan w3-xlarge w3-padding-large"><b>JavaScript</b></button></a>
+          </div>    
+          </div>
+        </nav>
+      </div>
+        <div class="w3-display-bottommiddle" style="padding-bottom: 2vh;">
+          <a href="#info" aria-label="More info" class="w3-padding-16"><i aria-hidden="true" style="color: #3f51b5;" class="fa fa-chevron-down w3-hover-opacity w3-center w3-xxxlarge"></i></a>
+
+        </div>
+<!-- <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-xlarge w3-center">Fall classes starting this September!</p> -->
+    </header>
+    
+    <main>
+      <section class="tagline" id="info">
+        <div class="w3-row-padding w3-padding-64 w3-container w3-content">
+          <h2 class="w3-xxxlarge" style="line-height: 1;">Do you dream about the amazing things you could make with tech?</h2>
+          <p class="w3-xlarge">Whether it's creating a website, building an app, designing a game, sharing your art, or programming robots... learning to code is a first step to achieving those goals.</p>
+
+          <div class="w3-half">
+            <h3>Designed for beginners</h3>
+            <p class="w3-large">No previous coding experience required, just confidence in using a web browser and a knack for troubleshooting.</p>
+            <h3>Located in Richmond</h3>
+            <p class="w3-large">No need to commute into SF! Classes meet at the Richmond campus of West Contra Costa Adult Education. Parking available on-site.</p>
+            <h3>Affordable</h3>
+            <p class="w3-large"><a href="https://wccae.asapconnected.com/Courses.aspx?CourseGroupID=17499">Register</a> through West Contra Costa Adult Education for a course fee of $124 for each 10-week class. Morning and evening classes available.</p>
+          </div>
+          
+          <div class="w3-half w3-right">
+            <img src="https://image.flaticon.com/icons/svg/1601/1601248.svg" width="100%" class="w3-padding-large">
+          </div>
+
+        </div>
+
+      </section>
+      <section>
+        
+<!--         <div id="upcoming">
+          <h2 class="no-margin w3-center">Upcoming Fall 2019 Classes</h2>
+        </div> -->
+        <!-- Second Grid -->
+        <div class="w3-row-padding w3-padding-64 w3-container" id="upcoming">
+          <div class="w3-content w3-center" style="color: #0d47a1;">
+            <h2 class="w3-xxxlarge">Upcoming Fall Classes</h2>
+            <p class="w3-xlarge"><i>Classes start in September. Registration ends soon!</i></p>
+          </div>
+
+        <!-- HTMLCSS Class Description -->
+          <div class="w3-content w3-row w3-container w3-padding-64" id="htmlcss">
+            <div class="w3-third w3-center">
+              <img src="https://image.flaticon.com/icons/svg/1649/1649165.svg" width="100%" style="padding: 48px 48px 48px 0;">
+            </div>
+
+            <div class="w3-twothird w3-padding-small">
+              <h3 class="w3-xxlarge">Build Your Own Website with HTML & CSS</h3>
+              <p class="w3-large">Would you rather “do it yourself” when it comes to tech? Think you might be interested in web development?</p>
+              <p class="w3-large">Learn the basics of HTML and CSS over 10 weeks of in-person training and self-directed practice. Start writing code for your own website and publicize your passion, whether it’s your portfolio, business, organization, sports team, fanfiction, cute pet photos, or an upcoming event.</p>
+
+              <div class="w3-row w3-center">     
+                <div class="w3-half w3-container w3-center w3-margin-bottom">
+                  <h4 class="w3-xlarge" style="line-height: 1;"><b>Thursday Mornings</b></h4>
+                  <p class="w3-xlarge" style="margin: 0;">10am-12pm</p> 
+                  <p class="w3-large"><b>Starts:</b> September 12<br><b>Ends:</b> November 21</p>
+                  <a href="https://wccae.asapconnected.com/ClassDetail.aspx?pk=1465728"><button class="w3-button w3-round-large w3-indigo w3-large">Register</button></a><br><br><br>
+                </div>
+
+                <div class="w3-half w3-container w3-center w3-margin-bottom">
+                  <h4 class="w3-xlarge" style="line-height: 1;"><b>Thursday Evenings</b></h4>
+                  <p class="w3-xlarge" style="margin: 0;">7pm-9pm</p> 
+                  <p class="w3-large"><b>Starts:</b> September 12<br><b>Ends:</b> November 21</p>
+                  <a href="https://wccae.asapconnected.com/ClassDetail.aspx?pk=1465743"><button class="w3-button w3-round-large w3-indigo w3-large">Register</button></a> <br><br><br>
+                </div>  
+
+              </div>
+            </div>        
+          </div>
+
+        <!-- JavaScript Class Description -->
+          <div class="w3-content w3-row w3-container w3-padding-64" id="javascript">
+            <div class="w3-third w3-center">
+              <img src="https://image.flaticon.com/icons/svg/1118/1118898.svg" width="100%" style="padding: 48px 48px 48px 0;">
+            </div>
+
+            <div class="w3-twothird w3-padding-small">
+              <h3 class="w3-xxlarge">JavaScript Programming Basics</h3>
+              <p class="w3-large">JavaScript is the programming language of the web. Once you learn JavaScript you can start building interactive websites, apps, and games that run in the browser, on your phone, on your computer, or even on your robot!</p>
+              <p class="w3-large">In 10 weeks, you’ll learn the basics of computer programming: how to store data, use logic, and write functions. Each week, you will practice your coding skills on live webapps with the goal of building your very own chatbot.</p>
+              <div class="w3-row">     
+                <div class="w3-half w3-center w3-margin-bottom">
+                  <h4 class="w3-xlarge" style="line-height: 1;"><b>Tuesday Mornings</b></h4>
+                  <p class="w3-xlarge" style="margin: 0;">10am-12pm</p> 
+                  <p class="w3-large"><b>Starts:</b> September 17<br><b>Ends:</b> November 19</p>
+                  <a href="https://wccae.asapconnected.com/ClassDetail.aspx?pk=1465742"><button class="w3-button w3-round-large w3-indigo w3-large">Register</button></a><br><br>
+                </div>
+
+                <div class="w3-half w3-center w3-margin-bottom">
+                  <h4 class="w3-xlarge" style="line-height: 1;"><b>Wednesday Evenings</b></h4>
+                  <p class="w3-xlarge" style="margin: 0;">7pm-9pm</p> 
+                  <p class="w3-large"><b>Starts:</b> September 18<br><b>Ends:</b> November 20</p>
+                  <a href="https://wccae.asapconnected.com/ClassDetail.aspx?pk=1465317"><button class="w3-button w3-round-large w3-indigo w3-large">Register</button></a>
+                </div>    
+
+              </div>
+            </div>
+          </div>
+        </div>
+<!--           <div class="flex-container" style="background: #e1f5fe;">
+            <div class="column">
+              <img src="https://image.flaticon.com/icons/svg/1649/1649165.svg" width="300px" height="300px">
+              <h3>Build Your Own Website with HTML & CSS</h3>
+              <p>Would you rather “do it yourself” when it comes to tech?</p>
+              <p>Think you might be interested in web development? </p>
+              <p>Learn the basics of HTML and CSS over 10 weeks of in-person training and self-directed practice. Start writing code for your own website and publicize your passion, whether it’s your portfolio, business, organization, sports team, fanfiction, cute pet photos, or an upcoming event.</p>
+            </div>
+            <div class="column">
+              <img src="https://image.flaticon.com/icons/svg/1118/1118898.svg" width="300px" height="300px">
+              <h3>JavaScript Programming Basics</h3>
+              <p>JavaScript is the programming language of the web. Once you learn JavaScript you can start building interactive websites, apps, and games that run in the browser, on your phone, on your computer, or even on your robot! </p>
+              <p>In 10 weeks, you’ll learn the basics of computer programming: how to store data, use logic, and write functions. Each week, you will practice your coding skills on live webapps with the goal of building your very own chatbot.</p>
+          
+            </div>
+            
+          </div> -->
+      </section>
+      <section id="about">
+      <div class="w3-container w3-content w3-center w3-padding-64 w3-row" style="max-width:1024px;">
+        <div class="w3-half side-padding">
+          <img src="https://cdn.glitch.com/1d3763ef-c89d-4ed8-a93e-b3d71f8e5f4d%2FCFheadshot.jpg?v=1566571239894" width="170px" class="circle-img w3-center">
+          <h2 class="w3-margin w3-xlarge">Meet the Instructor</h2>
+          <p>Christina Foran has been creating websites since 1999. She taught writing and math before becoming a software engineer at Slack. Since then, she has taught computer programming at Hackbright Academy and Girl Develop It. Christina is passionate about making tech accessible for all kinds of learners. 🤟</p>
+          <p>Let's connect! &nbsp; &nbsp;<a href="https://twitter.com/eduDevCF" aria-label="LinkedIn"><i aria-hidden="true" class="fa fa-twitter w3-hover-opacity"></i></a>
+          &nbsp; &nbsp;<a href="https://www.linkedin.com/in/cmforan/" aria-label="LinkedIn"><i aria-hidden="true" class="fa fa-linkedin w3-hover-opacity"></i></a>
+          </p>
+        </div>
+        <div class="w3-half side-padding">
+          <img src="https://cdn.glitch.com/1d3763ef-c89d-4ed8-a93e-b3d71f8e5f4d%2Fwccae-logo-good.jpeg?v=1566571187049" class="circle-img w3-center">
+          <h2 class="w3-margin w3-xlarge">About WCCAE</h2>
+          <p>West Contra Costa Adult Education provides quality services and programs to build adult learners' skills, provide career training and enhance personal enrichment. WCCAE strives to offer programs that are accessible, equitable, community-oriented, and culturally inclusive.</p>
+          <p><a href="http://www.wccae.info/contact.html">Learn More</a> | <a href="http://www.wccae.info/maps.html">Locations</a><br><a href="https://wccae.asapconnected.com/Courses.aspx?CourseGroupID=17499">Register for Classes</a></p>
+       </div>
+      </div>
+      </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="w3-container w3-center">  
+     <p class="w3-small">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a><br>
+      Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
+
+      </p>
+    </footer>
+  </body>
+</html>
